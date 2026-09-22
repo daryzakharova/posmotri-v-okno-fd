@@ -140,7 +140,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: "";
+  content: " ";
   display: block;
   background-color: #fff;
   width: 100%;
