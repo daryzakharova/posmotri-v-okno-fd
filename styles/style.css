@@ -82,7 +82,7 @@ ol {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 1;
   margin-bottom: 6.5px;
 }
 
@@ -93,7 +93,7 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
+  line-height: 1;
   color: #fff;
   border: none;
   border-top: 1px solid #fff;
@@ -148,7 +148,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__pseudo-checkbox:checked::after {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -169,7 +169,7 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 0.94;
   text-transform: uppercase;
 }
 
@@ -233,10 +233,11 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 196px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 1;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -265,7 +266,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   color: #fff;
-  line-height: 100%;
+  line-height: 1;
   cursor: pointer;
 }
 
@@ -293,7 +294,7 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 99.5%;
 }
 
 /*Отработка задания*/
